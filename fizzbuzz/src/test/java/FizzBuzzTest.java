@@ -42,21 +42,21 @@ public class FizzBuzzTest {
         assertEquals(expectedResult, actualResult);
     }
 
-    @Test 
+    @Test
     public void should_say_Fizz_when_number_is_6() {
         String actualResult = fizzBuzz.say(6);
         String expectedResult = "Fizz";
         assertEquals(expectedResult, actualResult);
     }
 
-    @Test @Ignore
+    @Test
     public void should_say_7_when_number_is_7() {
         String actualResult = fizzBuzz.say(7);
         String expectedResult = "7";
         assertEquals(expectedResult, actualResult);
     }
 
-    @Test @Ignore
+    @Test
     public void should_say_8_when_number_is_8() {
         String actualResult = fizzBuzz.say(8);
         String expectedResult = "8";
