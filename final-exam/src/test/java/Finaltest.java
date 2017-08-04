@@ -14,9 +14,15 @@ public class Finaltest {
             long Number = new Exam().getNumber(8);
             assertEquals(8,Number );
 
-
-
         }
+
+    @Test
+    public void should_return_is_9() {
+        long Number = new Exam().getNumber(10);
+        assertEquals(10,Number );
+
+    }
+
 
 
 
