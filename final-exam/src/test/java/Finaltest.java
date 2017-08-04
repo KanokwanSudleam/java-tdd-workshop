@@ -34,11 +34,17 @@ public class Finaltest {
         assertEquals(129,Number );
 
     }
+//    @Test
+//    public void should_return_is_11() {
+//        long Number = new Exam().getNumber(1110);
+//        assertEquals(999,Number );
+//
+//    }
 
     @Test
     public void should_return_is_1111() {
-        long Number = new Exam().getNumber(11111111111L);
-        assertEquals(129,Number );
+        long Number = new Exam().getNumber(111111111111111110L);
+        assertEquals(99999999999999999L,Number );
 
     }
 
