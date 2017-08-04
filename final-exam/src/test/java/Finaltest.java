@@ -19,7 +19,13 @@ public class Finaltest {
     @Test
     public void should_return_is_9() {
         long Number = new Exam().getNumber(10);
-        assertEquals(10,Number );
+        assertEquals(9,Number );
+
+    }
+    @Test
+    public void should_return_is_20() {
+        long Number = new Exam().getNumber(20);
+        assertEquals(19,Number );
 
     }
 
