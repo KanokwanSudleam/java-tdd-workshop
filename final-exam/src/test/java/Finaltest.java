@@ -28,6 +28,19 @@ public class Finaltest {
         assertEquals(19,Number );
 
     }
+    @Test
+    public void should_return_is_129() {
+        long Number = new Exam().getNumber(132);
+        assertEquals(129,Number );
+
+    }
+
+    @Test
+    public void should_return_is_1111() {
+        long Number = new Exam().getNumber(11111111111L);
+        assertEquals(129,Number );
+
+    }
 
 
 
